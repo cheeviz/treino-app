@@ -473,16 +473,16 @@ function App() {
                 onClick={() => {
                   if (
                     confirm(
-                      "Isso substituirá todos os treinos e o histórico. Continuar?",
+                      "Tem certeza que deseja excluir todos os treinos e histórico? Esta ação não pode ser desfeita.",
                     )
                   ) {
                     setData(seed());
                     setView("fila");
-                    setNotice("Exemplos restaurados.");
+                    setNotice("Treinos e histórico excluídos.");
                   }
                 }}
               >
-                <RotateCcw size={17} /> Restaurar
+                <RotateCcw size={17} /> Excluir Treinos
               </button>
             </div>
             <div className="privacy-note">
