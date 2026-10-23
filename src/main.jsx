@@ -463,9 +463,9 @@ function App() {
             </div>
             <div className="settings-card">
               <div>
-                <strong>Restaurar exemplos</strong>
+                <strong>Excluir Treinos</strong>
                 <p>
-                  Substitui seus dados atuais pelos treinos de demonstração.
+                  Exclua todos os treinos e o histórico.
                 </p>
               </div>
               <button
